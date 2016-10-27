@@ -1,0 +1,67 @@
+ <div class="row">
+             <form class="form-signin" method="post" id="register_form" onsubmit="registerUser()">
+                <div class="col-xs-12">
+                  <div class="modal fade" id="register_modal" tabindex="-1">
+                    <div class="modal-dialog modal_register">
+                      <div class="modal-content modal_register">
+                        <div class="modal-header">
+                          <button class="close" data-dismiss="modal" type="button">×</button>
+                          <h2 class="modal-title modal_register_title" id="myModalLabel">Register</h2>
+                        </div>
+                          <div id="response_register_div" class="alert alert-success" role="alert">
+                            <strong> <label id="response_register">  </label> </strong>
+                        </div>
+                        <div class="modal-body modal_register col-lg-12">
+                              <div class="form-group col-lg-6">
+                                  <input type="text" id="first_name" name="first_name" placeholder="First name" class="form-control input-box" required>
+                              </div>
+                              <div class="form-group col-lg-6">
+                                  <input type="text" id="last_name" name="last_name" placeholder="Last name" class="form-control input-box" required>
+                              </div>
+                              <!-- <br> -->
+                              <div class="form-group  col-lg-6">
+                                  <input type="text" id="phone_no" name="phone_no" placeholder="Phone number" class="form-control input-box" required>
+                              </div>
+                              <div class="form-group  col-lg-6">
+                                  <input type="email" id="email" name="email" placeholder="Email" class="form-control input-box" required>
+                              </div>
+                              <!-- <br> -->
+                              <div class="form-group col-lg-6">
+                                  <input type="text" id="course" name="course" placeholder="Course" class="form-control input-box" required>
+                              </div>
+                              <div class="form-group col-lg-6">
+                                  <input type="text" id="reg_no" name="reg_no" placeholder="Registration Number" class="form-control input-box" required>
+                              </div>
+                              <br>
+                               <div class="form-group col-lg-12">
+                                  <input type="text" name="hall" id="hall" placeholder="Hall of Residence" class="form-control input-box" required>
+                              </div>
+                              <!-- <br> -->
+                             <!--  <div class="form-group col-lg-6">
+                                <label class="form-control input-box" for="gender">Gender</label>
+                             </div> -->
+                             <!-- <br> -->
+                             <div class="form-group col-lg-12">
+                                <select class="form-control input-box" name="gender" id="gender">
+                                    <option disabled="disabled" selected="selected">----select gender----</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                            </div>  
+                        </div>
+                        <div class="modal-footer">
+                        <!-- <button class="btn btn-default" data-dismiss="modal" type="button">Close</button> -->
+                        <button class="btn btn-success" type="submit">Register</button> 
+                      </div>
+                      <!-- footer -->
+                    </div>
+                    <!-- content -->
+                  </div>
+                  <!-- modal dialog -->
+                </div>
+                <!-- modal fade -->
+              </div>
+              <!-- col-xs-12 -->
+            </form>
+            </div>
+        <!-- row -->
